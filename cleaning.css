@@ -1,0 +1,199 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
+}
+
+.front{
+
+    /* background-image: url('https: //static.wixstatic.com/media/c837a6_8bdf6d31716e47f28f553df74033ed63~mv2.jpg/v1/fill/w_1225,h_1178,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_8bdf6d31716e47f28f553df74033ed63~mv2.jpg'); */
+    position: relative;
+    
+}
+.nav{
+    /* position: fixed; */
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    margin: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color:rgb(223, 215, 203) ;
+    position:relative;
+top: -800px;
+    font-size: 20px;
+
+  button:hover{
+    background-color:rgb(223, 215, 203);
+    color: black;
+  }
+
+}
+.nav button{
+    background-color: rgb(15, 15, 58);
+    color: white;
+    border-radius: 40px;
+    width: 160px;
+    height: 50px;
+
+}
+
+.booknow{
+    position: absolute;
+    margin-top: -40%;
+
+   
+    h5{
+        font-size: 50px;
+        color: rgb(240, 239, 236);
+        margin-left: 60px;
+    
+    }
+    p{
+        font-size: 20px;
+        color: rgb(240, 239, 236);
+       
+        margin-top: -55px;
+        margin-left: 60px;
+
+    }
+    button{
+        margin-left: 60px;
+        width: 35%;
+        height: 60px;
+        font-size: 18px;
+        background-color: rgb(240, 239, 236);
+        border-radius: 30px;
+    }
+        button:hover{
+            background-color: rgba(231, 219, 219, 0.742)
+        }
+}
+
+
+.form{
+    background-color: rgb(236, 236, 160);
+    /* grid-template-rows: 100px 100px 100px,auto;
+    grid-template-columns: 100px 100px 100px; */
+    width: 50%;
+    height: 500px;
+    margin-top: -30%;
+    margin-left: 43%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 50px 1px;
+   position: relative;
+   padding: 20px;
+    h3{
+        /* margin-left: 270px; */
+        text-align: center;
+    }
+    p{
+        /* margin-left: 315px; */
+        text-align: center;
+        padding: 10px;
+    }
+
+    input{
+        margin: 10px;
+        padding: 10px;
+        border-radius:6px;
+    background-color: rgb(236, 236, 160);
+    /* border: 2px solid black; */
+
+
+
+}
+label{
+    margin: 10px;
+        padding: 10px;
+}
+select{
+    margin: 10px;
+        padding: 10px;
+        border-radius: 6px;
+    background-color: rgb(236, 236, 160);
+    border: 2px solid black;
+}
+button{
+background-color: black;
+border-radius:30px;
+color: 
+white;
+margin: 10px;
+font-size: 15px;
+}
+button:hover{
+    background-color: rgb(236, 236, 160);
+
+    color:black;
+}
+#address{
+    margin-left: -20px;
+}
+#Choose_your_service{
+width: 460px;
+}
+}
+.get{
+align-items: center;
+    padding: 15px;
+    width: 30%;
+}
+.inputssection{
+    display: flex;
+        flex-direction: column;
+
+}
+
+#shiny{
+    margin-top: 8%;
+    padding: 20px;
+    margin-left: 60px;
+}
+.rateus{
+    display: flex;
+    gap: 20px;
+    padding-left:80px;
+
+
+}
+.card1{
+    background-color: rgb(236, 236, 160);
+    height: 280px;
+    padding: 30px;
+width: 260px;
+
+}
+.card2{
+    background-color: rgb(236, 236, 160);
+    height: 280px;
+    
+    padding: 30px;
+width: 260px;
+
+}
+.card3{
+    background-color: rgb(236, 236, 160);
+height: 280px;
+width: 260px;
+    padding: 30px;
+
+}
+.card4{
+    background-color: rgb(236, 236, 160);
+height: 280px;
+    padding: 30px;
+width: 260px;
+
+}
+
+        /* < !-- for anything you need --> */
+
+.multiple_verity{
+    margin-top:5%;
+background-color: rgb(76,91,92,1);
+color: white;
+text-align: center;
+padding: 60px;
+font-size: 25px;
+}
